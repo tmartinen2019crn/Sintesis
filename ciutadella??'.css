@@ -1,0 +1,13 @@
+body{
+  background-image: url(2.jpg);
+  background-repeat:no-repeat;
+
+}
+div{
+  width: 50%;
+  margin: 0 0 0 30%;
+  padding: 0 1%;
+}
+.logo{
+left: auto;
+}
