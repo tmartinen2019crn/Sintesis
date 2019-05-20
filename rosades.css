@@ -1,13 +1,12 @@
-@media screen and (max-width: 480px){
-     body{
-       background-image: url(img/IMG_5602_2.jpg);
-       background-position: right;
-       background-attachment: cover;
-       background-repeat: repeat;
+@media screen and (min-width: 769px){
+
+    body{
+      background-image: url(img/IMG_5602_2.jpg);
+      background-position: right;
+      background-attachment: cover;
+      background-repeat: repeat;
+
     }
-
-
-
     .check{
       cursor: pointer;
       position: absolute;
@@ -41,7 +40,7 @@
     }
     #menu{
       width: 20px;
-      right:  -15%;
+      right:  -100%;
       position: absolute;
       display:block;
 
@@ -89,8 +88,6 @@
      width: auto;
      height: 120px;
      margin: 10px 10px 10px 10px;
-
-
     }
     .comp{
       width: 120px;
@@ -110,54 +107,61 @@
      border-radius: 100%;
 
     }
-    /*
-    #menu{
-     text-align: right;
-     display: block;
-    }
-    #menu li{
-     display: inline;
-     margin: 0 10px;
-     position: relative;
-     top: -85px;
-
-    }*/
-    /*
-    .fondo{
-     width: 350px;
-     height: auto;
-     margin: 100px 0px 0px 5px;
+    .tit{
+     color: black;
+     text-align: center;
+     font-size: 20px;
      background-color: white;
-    }*/
-    li{
-     border-radius: 5px;
 
     }
-    a{
-    text-align:center;
-    text-decoration: none;
+    .ciut{
+      position: absolute;
+      left: 80px;
+      width: 340px;
+      height: auto;
     }
-    .entra{
-    position: absolute;
-    border-radius: 0 10px 0 10px;
-    width: 95px;
-    height: 50px;
-    text-align: center;
-    font-size: 40px;
-    top: 360px;
-    left: 150px;
-    background-color: white;
+
+    .fon{
+      text-align: justify;
+      padding: 10px;
+      position: absolute;
+      width: 320px;
+      height: 30px;
+      left: 515px;
+      top: 330px;
+      background-color: rgba( 255, 255, 255, 0.5);
     }
-    .entra:link{
-    color: white;
-    }
-    .entra:visited{
-    color: black;
-    }
-    .entra:hover{
-    background-color: #1ebcef;
-    }
-    .entra:active{
-    color: pink;
+
+
+        .in{
+          position: absolute;
+          left: 345px;
+          top: 330px;
+          width: 200px;
+          height: auto;
+          transform: rotate(90deg);
+        }
+        .int{
+          position: absolute;
+          left: 950px;
+          width: 340px;
+          height: auto;
+        }
+        .intt{
+          position: absolute;
+          left: 825px;
+          top: 330px;
+          width: 200px;
+          height: auto;
+          transform: rotate(90deg);
+
+        }
+    .ha{
+      text-align: center;
+      padding: 10px;
+      position: absolute;
+      width: 1290px;
+      top: 550px;
+      background-color: rgba( 255, 255, 255, 0.5);
     }
 }

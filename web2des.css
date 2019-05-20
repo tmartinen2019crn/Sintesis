@@ -1,9 +1,10 @@
-@media screen and (min-width: 481px) and (max-width: 768px){
-     body{
+@media screen and (min-width: 769px){
+      body{
       background-image: url(img/IMG_5602_2.jpg);
       background-position: center;
-
+      background-attachment: fixed;
       background-repeat: no-repeat;
+      background-position: left;
 
     }
     .check{
@@ -71,12 +72,28 @@
       top: -19px;
 
     }
-    #primer{
-     width: auto;
-     height: 120px;
-     margin: 10px 10px 10px 10px;
-
+    a{
+      text-align:center;
+      text-decoration: none;
     }
+    .lin:link{
+      color: SteelBlue;
+    }
+    .lin:visited{
+     color: DarkSlateGray;
+    }
+    .lin:hover{
+     color: #00BFFF;
+    }
+    .lin:active{
+    color: cyan;
+    }
+    #primer{
+      width: auto;
+      height: 120px;
+      margin: 10px 10px 10px 10px;
+    }
+
     .comp{
       width: 120px;
       position:absolute;
@@ -89,56 +106,54 @@
       background-color: white;
     }
     .logo{
-     width: 120px;
-     height: auto;
-     border-radius: 100%;
+      width: 120px;
+      height: auto;
+      border-radius: 100%;
 
     }
     #menu{
-     text-align: right;
-     display: block;
+      text-align: right;
+      display: block;
+
+
     }
     #menu li{
-     display: inline;
-     margin: 0 10px;
-     position: relative;
-     top: -85px;
+      display: inline;
+      margin: 0 10px;
+      position: relative;
+      top: -85px;
 
     }
-    .fondo{
-     width: 1000px;
-     height: auto;
-     margin: 0px 0px 0px 420px;
-     background-color: white;
-    }
-    li{
-     border-radius: 5px;
+          .uni{
+             margin: 0 auto;
+             width: 960px;
+             overflow: hidden;
+            }
+    .bloc{
+      width: 300px;
+      height: 290px;
+      background-color: white;
+      border-radius: 0px;
+      float:left;
+      margin: 10px;
+      }
+     li{
+       list-style-type: none;
+       display: inline-block;
+       margin: 0 0.3em;
+     }
+     .imagen{
+       width: 290px;
+       height: 200px;
+       margin: 0.3em;
+     }
+     .ciu{
+     text-align: center;
+     font-size: 20px;
 
-    }
-    a{
-    text-align:center;
-    text-decoration: none;
-    }
-    .entra{
-    position: absolute;
-    border-radius: 0 10px 0 10px;
-    width: 100px;
-    height: 50px;
-    text-align: center;
-    font-size: 40px;
-    top: 250px;
-    left: 45%;
-    background-color: white;
-    }
-    .entra:link{
-    color: white;
-    }
-    .entra:visited{
-    color: #1ebcef;
-    }
-    .entra:hover{
-    }
-    .entra:active{
-    color: pink;
-    }
+     }
+     li{
+         border-radius: 5px;
+
+     }
 }
